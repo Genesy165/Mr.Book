@@ -1,0 +1,149 @@
+@font-face{
+    src:url('../Fontes/fonte1.ttf');
+    font-family: fonte1;
+}
+@font-face{
+    src:url('../Fontes/fonte2.ttf');
+    font-family: fonte2;
+}
+
+
+
+body{
+    background-color: gray;
+}
+header{
+    color: white;
+    top:0;
+    left:0;
+    right: 0;
+    background-color:#03083a;
+    width: 100%;
+    z-index: 999;
+    height: 300px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    
+}
+#logo{
+    height: 75px;
+    width: 75px;
+    position: relative;
+    
+
+
+}
+.nome{
+    font-family: fonte1;
+    font-size: 80px;
+    text-decoration: none;
+    position: relative;
+    left: 40%;
+    color: white;
+}
+.nome :visited{
+    color:white;
+}
+.nome:hover{
+    font-size: 85px;
+}
+nav{
+    background-color:#040d8c;
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    font-size: 25px;
+    color: white;
+    font-family: fonte2;
+    
+}
+.links :visited{
+    color: white;
+}
+
+#img1{
+    
+    
+height: 300px;
+width: 300px;
+
+
+
+
+}
+#img2{
+    height: 300px;
+    width: 300px;
+
+}
+#img3{
+    height: 300px;
+    width: 300px;
+
+}
+#img4{
+    height: 300px;
+    width: 300px;
+
+}
+#img5{
+    height: 300px;
+    width: 300px;
+
+}
+#img6{
+    height: 300px;
+    width: 400px;
+
+}
+#img7{
+    height: 400px;
+    width: 300px;
+
+}
+p{
+    float: right;
+    margin-right: 200px;
+    margin-top: 100px;
+    font-size: 18.2px;
+    font-family: fonte2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+.rodape{
+    font-size: 15px;
+}
