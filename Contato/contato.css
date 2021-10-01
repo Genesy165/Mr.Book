@@ -1,0 +1,71 @@
+@font-face{
+    src:url('../Fontes/fonte1.ttf');
+    font-family: fonte1;
+}
+@font-face{
+    src:url('../Fontes/fonte2.ttf');
+    font-family: fonte2;
+}
+
+body{
+    background-color: #0D0E0F;
+}
+.moon{
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    position: relative;
+    transform: rotate(-35deg);
+}
+.moon::after{
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: #0D0E0F;
+    position: absolute;
+    right: -66px;
+}
+h1{
+    color: white;
+    font-size: 5rem;
+    position: relative;
+    float: right;
+    margin-right: 500px;
+    font-family: fonte2;
+    
+}
+input{
+    width: 270px;
+   
+}
+footer{
+    font-size: 20px;
+}
+.nome{
+    font-size: 30px;
+    
+}
+
+    form{
+        color: white;
+        font-size: 2rem;
+        font-family: fonte2;
+    }
+    @keyframes neon{
+        from {
+            filter: drop-shadow(0 0 0 var(--cor-neon));
+        }
+        to{
+            filter: drop-shadow(0 0 30px var(--cor-neon));
+        }
+    }
+    h1{
+       
+       animation: neon 1.5s alternate infinite ease-in-out;
+       --cor-neon: rgba(0, 4, 255, 0.815); 
+    }
+    
+    
